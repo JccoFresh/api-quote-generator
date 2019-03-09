@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Advice Project</title>
+	<title>The Weather</title>
 
 	<!--Bootstrap CSS-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,8 +13,10 @@
 <body>
 	
 	<div class="container">
-		<h1>Advice for the Day</h1>
-		<p id="advice" class="speech-bubble"></p><button onclick="xmlOpen()" class="btn btn-success">New Advice</button>
+		<h1>The Weather in <span id="city"></span></h1>
+		<hr>
+		<h4>This website uses the <a href="https://openweathermap.org/">OpenWeatherMap</a> Api</h4>
+		<p id="weather" class="speech-bubble"></p><img id ="icon" src=""><!--<button onclick="xmlOpen()" class="btn btn-success">New Advice</button>-->
 	</div>
 	
 	<!--Bootstrap-->
@@ -23,6 +25,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 	<!--Scripts-->
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="weather.js"></script>
 </body>
 </html>
