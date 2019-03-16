@@ -1,10 +1,9 @@
 body{
     text-align: center;
     margin-top: -4em;
-   background: #C9D6FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 h1{
     margin-top: 100px;
@@ -22,27 +21,7 @@ p{
 	background: #7ed1fe;
 	border-radius: .4em;	
 }
-/*
-.speech-bubble {
-	position: relative;
-	background: #7ed1fe;
-	border-radius: .4em;
-}
 
-.speech-bubble:after {
-	content: '';
-	position: absolute;
-	right: 0;
-	top: 50%;
-	width: 0;
-	height: 0;
-	border: 20px solid transparent;
-	border-left-color: #7ed1fe;
-	border-right: 0;
-	margin-top: -20px;
-	margin-right: -20px;
-}
-*/
 .btn {
 	width: 200px;
 	height: 100px;
@@ -56,6 +35,9 @@ p{
 }
 
 img { 
-	margin-top: -2em;
-	
+	margin-top: 0em;
+}
+
+a:hover {
+	text-decoration: none;
 }
