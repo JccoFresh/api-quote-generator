@@ -7,7 +7,6 @@ let icon = document.getElementById("icon");
 request.open("GET", url, true);
 request.onload = function () {
         let data = JSON.parse(this.response); //parses the response JSON string into javascript object, store this parsed data in variable called data
-       console.log(data.name);
         if (request.status >= 200 && request.status < 400) {
             //condition for when request is succesful
             city.innerHTML = data.name + ", " + data.sys.country; //city and country
